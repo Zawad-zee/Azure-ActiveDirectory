@@ -391,9 +391,13 @@ Before you attempt to join a client machine to the domain, please ensure the fol
 
     1.  Follow the same steps as for `CLIENT1A`. The DNS settings we configured earlier will allow it to find the domain controllers.
 
+**After Client machines restart** you will need to log in using the credentials of a user that has been created in the domain controllers. The credentials are provided by the admins. If no users are created, you may create a new test user in the ADUC of the Domain Controller or use the default Administrator credentials to log in. The login format is:
+Username field: `Domain\username`
+Password field: `password` for the account
+
 * **Verification**:
 
-    1.  After the clients have restarted, log into `SERVER1A` (or `SERVER1B`).
+    1.  Log into `SERVER1A` (or `SERVER1B`).
 
     2.  Open `Active Directory Users and Computers` (ADUC).
 
