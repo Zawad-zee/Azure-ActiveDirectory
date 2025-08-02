@@ -1,0 +1,23 @@
+About the Lab 2 file
+After taking an introductory pentest course, decided to do some self study. I borrowed books from the library and started reading. Learnt alot just from few chapters of reading. 
+I am banging my head, all my childhoold why I never picked up a book to read.
+Anyways, recently came across a group of IT professionals who decided to help each other out and work towards a cybersec role. 
+The group is lead by Noushad bhy and they have been practicing pentest tools on virtual machines for quite sometime now. 
+They decided to move on to Active Directory as it is a mandatory/foundational knowledge every IT person should know.
+
+So I joined the group when they moved their learning to AD. Noushad bhy suggested the lab which he had done 4-5 years ago before COVID and asked us to create and attempt the lab.
+Alhumdulillah(All praises to one Almighty Lord) after 4 days of trying I was able to complete the two AD lab assignment.
+
+Assignment had two parts 
+WAN 1 with two AD server (primary and backup) and a client. If the primary fails, client should be able to connect to the internet via the backup server
+WAN 2 with 1 server(domain joined) and a machine
+
+I was able to complete the first part in couple of attempts(OS was giving an issue). However for the second part it took me several times. 
+
+Issues I faced
+On VMWare, but as soon as I was adding the client in WAN 2 , VMWare Network Adapter was breaking and after several attempts Noushad bhy suggested to do it on VirtualBox instead. 
+Over there also I had to do several times, to address both NAT and router forwarding issue before I was able to solve it. 
+All the machines were able to ping each other and browse the internet as well. Alhumdulillah(All praises to one Almighty Lord)
+
+I have created the lab document with the help of Gemini after so many attempts/prompts finally able to compile even though there could be lot of gaps. 
+I tried to think of all the troubleshooting, checks I had done during the lab and mention them in the document.
