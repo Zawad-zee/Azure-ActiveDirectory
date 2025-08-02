@@ -360,9 +360,17 @@ Our goal was to create a mini-corporate network inside VirtualBox. We wanted to 
 
     5.  **Verification**: After `SERVER2A` has restarted, log into `SERVER1A` (or `SERVER1B`), open `Active Directory Users and Computers`, and expand the `Domain Controllers` organizational unit. `SERVER2A` should be listed here, confirming its successful promotion.
 
+
 #### **Joining Client Machines to the Domain**
 
 *Why we're doing this:* This is the final step to integrate our client computers into the corporate network. By joining the domain, these computers will now be managed by our domain controllers, and users can log in with a single company account.
+
+### **Pre-joining Checklist**
+
+Before you attempt to join a client machine to the domain, please ensure the following:
+
+1.  **Domain Controllers are Running**: Verify that `SERVER1A` and `SERVER1B` are powered on and running. The client machine needs to be able to communicate with the domain controllers to complete the joining process.
+2.  **Client Network Connectivity**: Check the network icon in the system tray (bottom-right corner) of the client machine. It should show that the machine is connected to the network. If there is a warning sign (e.g., a globe icon with a red X), it indicates a network connectivity issue that needs to be resolved first.
 
 * **`CLIENT1A` (on the WAN1 network)**
 
