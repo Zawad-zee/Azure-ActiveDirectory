@@ -31,6 +31,7 @@ This guide explains every action we performed, from creating virtual networks to
 
 *Why we're doing this:* Before we can build our virtual network, we first need to create the virtual computers, or "virtual machines" (VMs), that will act as our servers and client computers. Think of this as getting all the hardware ready before you can connect it all with network cables.
 
+**WARNING**: Do not intentionally run system updates on the virtual machines (Servers or clients). At the System Tray, there will be notifications for a system update; do not run these. System updates can cause unexpected changes and may disrupt the lab environment.
 #### **Step-by-Step VM Creation**
 
 *Why we're doing this:* This process walks us through the VirtualBox wizard to create a new, blank virtual computer. We'll give it a name and tell it what operating system to prepare for.
