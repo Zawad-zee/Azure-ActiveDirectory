@@ -25,6 +25,7 @@ This document serves as a step-by-step, beginner-friendly guide to setting up a 
 
 ### **1. Installing the Virtual Machines**
 
+**WARNING**: Do not intentionally run system updates on the virtual machines (Servers or clients). At the System Tray, there will be notifications for a system update; do not run these. System updates can cause unexpected changes and may disrupt the lab environment.
 Before we can do anything with networking or servers, we need to create the virtual computers themselves. This process is similar for both Windows Server and Windows 11.
 
 #### **Step-by-Step VM Creation**
