@@ -77,6 +77,9 @@ Before we can do anything with networking or servers, we need to create the virt
 
 * **Windows 11**:
 
+    * **Important Note on VirtualBox Installation:** After selecting your Windows 11 ISO image, you'll see a checkbox that says "Skip Unattended Installation."
+        * **Why you should check this box:** If this box is unchecked, VirtualBox will try to automate the installation process by pre-filling details like the username and password. By checking the box, you are telling VirtualBox to disable this automation and let you manually go through every installation prompt yourself, which is what we need to do for this lab.
+
     * When the setup starts, choose your language and keyboard layout.
 
     * Click `Install now`.
