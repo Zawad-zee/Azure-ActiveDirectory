@@ -322,6 +322,13 @@ This is where we gave our servers their jobs.
 
 #### **Joining Client Machines to the Domain**
 
+### **Pre-joining Checklist**
+
+Before you attempt to join a client machine to the domain, please ensure the following:
+
+1.  **Domain Controllers are Running**: Verify that `SERVER1A` and `SERVER1B` are powered on and running. The client machine needs to be able to communicate with the domain controllers to complete the joining process.
+2.  **Client Network Connectivity**: Check the network icon in the system tray (bottom-right corner) of the client machine. It should show that the machine is connected to the network. If there is a warning sign (e.g., a globe icon with a red X), it indicates a network connectivity issue that needs to be resolved first.
+
 * **`CLIENT1A` (on the WAN1 network)**
 
     1.  On `CLIENT1A`, right-click the Start menu and select `System`.
