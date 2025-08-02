@@ -110,6 +110,14 @@ This guide explains every action we performed, from creating virtual networks to
 
     * Windows 11 will prompt you to create a user account and password during the setup process.
 
+#### **Post-Installation Verification Steps**
+
+*Why we're doing this:* After the operating system is installed and the virtual machine reboots, it's crucial to perform a few quick checks. This ensures the environment is properly configured from the start and helps avoid issues later on, especially when connecting to a network or domain.
+
+1.  **Verify Region and Date/Time**: Check the region, time, and date settings on the virtual machine. It should match the host machine's settings to prevent potential errors with network time synchronization, which is important for domain communication.
+
+2.  **Verify Windows 11 Version**: For Windows 11 clients, you must verify that the installed version is **Windows 11 Pro**. Other versions, such as Windows 11 Home or Education, cannot be joined to a corporate domain. If you find that the installed version is not Windows 11 Pro, you will need to reinstall the operating system using a different ISO image.
+
 #### **Troubleshooting Tip: Bypassing the Windows 11 Microsoft Account Requirement**
 
 *Why we're doing this:* This is a helpful trick to create a local account for our lab instead of being forced to sign in with a Microsoft account, which simplifies the setup process.
